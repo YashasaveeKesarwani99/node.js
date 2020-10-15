@@ -11,6 +11,7 @@ Node.js is a javascript runtime enviroment. Here we'll focus on writing backend 
        on the data without having to wait for full data to be downloaded. Buffer is the station at which the developer can start working
        on chunks of data.
     4. Nodejs consist of event listeners under the on() method. for example - data,end, etc.
-    5. The execution of code may not be neccesarliy be line wise.
+    5. The execution of code may not be neccesarliy be line wise. Taking advantage of this one should never block code executin as a good 
+       programming practice. Therefore, instead of using writeFileSync() which blocks the future execution of code, use writeFile().
         
         
