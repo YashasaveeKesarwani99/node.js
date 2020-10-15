@@ -7,5 +7,10 @@ Node.js is a javascript runtime enviroment. Here we'll focus on writing backend 
         1. createServer() - as the name suggests
         2. write()
         3. end() - to mark the end of process.
+    3. Streams and Buffers - The request is simply read by node in chunks of data and not as a whole so that we can start to work 
+       on the data without having to wait for full data to be downloaded. Buffer is the station at which the developer can start working
+       on chunks of data.
+    4. Nodejs consist of event listeners under the on() method. for example - data,end, etc.
+    5. The execution of code may not be neccesarliy be line wise.
         
         
